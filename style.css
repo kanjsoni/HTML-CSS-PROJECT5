@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbarMonstera{
+    overflow: hidden;
+    max-width: 1440px;
+    margin: 0;
+    justify-content: space-between;
+    display: flex;
+}
+ #navFirst{
+    margin-top: 2rem;
+    height: 1.8rem;
+    margin-left: 2rem;
+}
+ #navMid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    font-weight: 900;
+    gap: 40px;
+
+}
+navMid:nth-child(1){
+    text-decoration: underline;
+}
+#navEnd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    font-weight: 900;
+    gap: 10px
+}
