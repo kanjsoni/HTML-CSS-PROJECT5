@@ -3,36 +3,116 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    max-width: 1400px;
+    margin: 0 auto;
+}
 #navbarMonstera{
-    overflow: hidden;
-    max-width: 1440px;
-    margin: 0;
-    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-around;
     display: flex;
+
 }
- #navFirst{
+ #navFirst img{
     margin-top: 2rem;
-    height: 1.8rem;
-    margin-left: 2rem;
-}
+    height: 2.5rem;
+ }
  #navMid{
     display: flex;
+    font-size: 1.5rem;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem;
-    font-weight: 900;
+    font-size: 1.3rem;
+    font-weight: 300;
     gap: 40px;
 
 }
-navMid:nth-child(1){
+#navMid>:nth-child(1){
     text-decoration: underline;
 }
 #navEnd{
     display: flex;
+    align-items: center;
+    gap: 1rem
+}
+#midWhole{
+    margin-left: 3rem;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem;
+    display: flex;
+   
+}
+
+#midWholePart11{
+    font-size: 1.2rem;
+    font-family: 'Allerta', sans-serif;
+    color: black;
+    justify-content: space-between;
+    }
+#midWholePart11 li{
+    width: 75vh;
+    font-size: 0.9rem;
+    }
+#monstera{
+    font-size: 5rem;
+    font-family: 'Allerta', sans-serif;
+    color: #000000;
     font-weight: 900;
-    gap: 10px
+    margin-top: 4rem;
+}
+
+#midWholePart12{
+    margin-top: 10px;
+
+}
+#midWholePart121{
+    display: flex;
+    align-items: center;
+    background-color: rgb(73, 127, 73);
+    padding: 12px 25px;
+    border-radius: 60px;
+    width: fit-content;
+    color: #fff;
+    margin-top: 2rem;
+}
+#midWholePart121 h1{
+    font-size: 2rem;
+    font-weight: 100;
+}
+#midWholePart122 img{
+    height: 20px;
+    margin-left: 0.5rem;
+    display: flex;
+    align-items: center;
+
+}
+#midWholePart13{
+    display: flex;
+    margin-top: 1.2rem;
+}
+.midWholePart13Parts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.midWholePart13Parts img{
+    height: 30px;
+
+}
+
+.text{
+    font-size: 10px;
+    font-weight: 300;
+    width: 20vh;
+
+}
+.midWholePart13Parts h4{
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+#imgMain{
+height: 500px;
 }
