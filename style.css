@@ -3,11 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    max-width: 1400px;
-    margin: 0 auto;
-}
+
 #navbarMonstera{
+    margin-top: 1.5rem;
     align-items: center;
     gap: 2rem;
     justify-content: space-around;
@@ -15,8 +13,7 @@ body{
 
 }
  #navFirst img{
-    margin-top: 2rem;
-    height: 2.5rem;
+    height: 2rem;
  }
  #navMid{
     display: flex;
@@ -37,7 +34,7 @@ body{
     gap: 1rem
 }
 #midWhole{
-    margin-left: 3rem;
+    margin-left: 5rem;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -51,7 +48,6 @@ body{
     justify-content: space-between;
     }
 #midWholePart11 li{
-    width: 75vh;
     font-size: 0.9rem;
     }
 #monstera{
@@ -114,5 +110,5 @@ body{
     
 }
 #imgMain{
-height: 500px;
+height: 700px;
 }
